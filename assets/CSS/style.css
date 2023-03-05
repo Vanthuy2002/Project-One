@@ -1,5 +1,6 @@
 :root {
   --primary: #0f1b4c;
+  --secondary: #687690;
 }
 body {
   font-family: "Poppins", sans-serif;
@@ -66,4 +67,43 @@ a {
 .action .btn {
   font-weight: 500;
   font-size: 1.4rem;
+}
+
+/* Hero-info */
+.hero {
+  margin-top: 130px;
+}
+.info {
+  width: 51%;
+}
+.hero .sub-title {
+  color: var(--secondary);
+  font-size: 1.8rem;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+  line-height: 1.5;
+}
+.hero .title {
+  margin-top: 8px;
+  font-weight: 700;
+  font-size: 6.2rem;
+  line-height: 1.2;
+  color: var(--primary);
+}
+.hero .info-desc {
+  margin-top: 30px;
+  font-size: 18px;
+  line-height: 1.8;
+  color: var(--secondary);
+  font-weight: 500;
+}
+.hero .btn-more {
+  margin-top: 40px;
+  min-width: 170px;
+  font-size: 1.3rem;
+  line-height: 20px;
+  text-align: center;
+  color: #ffffff;
+  padding: 15px 38px;
+  border-radius: 12px;
 }
