@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap");
 :root {
   --primary: #0f1b4c;
   --secondary: #687690;
@@ -513,4 +514,62 @@ a {
   position: absolute;
   bottom: 0;
   right: 220px;
+}
+/* footer */
+.footer {
+  margin-top: 55px;
+  padding: 50px 0 58px;
+}
+
+.footer .row {
+  display: flex;
+}
+
+.footer .row-gap {
+  gap: 185px;
+}
+.column .heading {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 1;
+  color: var(--third);
+  margin-bottom: 42px;
+}
+.footer .column .footer-desc,
+.footer .footer-list a {
+  margin-bottom: 18px;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  color: var(--secondary);
+}
+.footer .column a {
+  white-space: nowrap;
+}
+.footer .column .footer-desc {
+  line-height: 1.7;
+}
+.list-social {
+  margin-bottom: 40px;
+}
+.list-social .icon-link {
+  width: 30px;
+  height: 30px;
+  border-radius: 3px;
+  background-color: #f9f9f9;
+  text-align: center;
+  margin-right: 16px;
+  line-height: 30px;
+}
+.row-bottom {
+  margin-top: 80px;
+  justify-content: space-between;
+  align-items: center;
+}
+.row-bottom .copy-right {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.5;
+  color: var(--secondary);
 }
