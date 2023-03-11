@@ -87,7 +87,7 @@ a {
 .info {
   width: 51%;
 }
-.hero .sub-title {
+.hero .hero-sub-title {
   color: var(--secondary);
   font-size: 1.8rem;
   font-weight: 500;
@@ -544,6 +544,10 @@ a {
   line-height: 1.5;
   color: var(--secondary);
 }
+.footer .footer-list a:hover {
+  color: var(--four);
+}
+
 .footer .column a {
   white-space: nowrap;
 }
@@ -562,6 +566,10 @@ a {
   margin-right: 16px;
   line-height: 30px;
 }
+
+.list-social .icon-link:hover {
+  background-color: #ccc;
+}
 .row-bottom {
   margin-top: 80px;
   justify-content: space-between;
@@ -569,7 +577,7 @@ a {
 }
 .row-bottom .copy-right {
   font-weight: 400;
-  font-size: 14px;
+  font-size: 1.4rem;
   line-height: 1.5;
   color: var(--secondary);
 }
