@@ -44,9 +44,9 @@ a {
 /* header */
 .header {
   background-color: #e6f0ff;
-  height: 100vh;
+  height: calc(100vh - 102px);
   position: relative;
-  padding: 24px 0;
+  padding: 24px;
 }
 .fix-header {
   background-color: #e6f0ff;
@@ -58,6 +58,7 @@ a {
 .navbar {
   padding: 14px 0;
 }
+.navbar-list,
 .navbar {
   display: flex;
   align-items: center;
