@@ -46,7 +46,9 @@ a {
   background-color: #e6f0ff;
   height: calc(100vh - 102px);
   position: relative;
-  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .fix-header {
   background-color: #e6f0ff;
@@ -89,9 +91,7 @@ a {
 }
 
 /* Hero-info */
-.hero {
-  margin-top: 130px;
-}
+
 .info {
   width: 51%;
 }
