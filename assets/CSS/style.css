@@ -46,11 +46,18 @@ a {
   background-color: #e6f0ff;
   height: 100vh;
   position: relative;
+  padding: 24px 0;
+}
+.fix-header {
+  background-color: #e6f0ff;
+  position: sticky;
+  top: -24px;
+  padding-top: 24px;
+  z-index: 2;
 }
 .navbar {
-  padding-top: 40px;
+  padding: 14px 0;
 }
-.navbar-list,
 .navbar {
   display: flex;
   align-items: center;
