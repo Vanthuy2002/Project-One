@@ -5,34 +5,40 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Project One</title>
+    <link
+      rel="shortcut icon"
+      href="./favicon/favicon-32x32.png"
+      type="image/x-icon"
+    />
+    <link rel="manifest" href="./favicon/manifest.json" />
     <link rel="stylesheet" href="./assets/CSS/reset.css" />
     <link rel="stylesheet" href="./font/stylesheet.css" />
     <link rel="stylesheet" href="./assets/CSS/style.css" />
   </head>
   <body>
+    <!-- header -->
+    <header class="fix-header">
+      <div class="width">
+        <nav class="navbar">
+          <!-- logo -->
+          <a href=""><img src="./assets/img/Logosvg.svg" alt="Benisk" /></a>
+          <!-- link -->
+          <ul class="navbar-list">
+            <li><a href="#">Home</a></li>
+            <li><a href="#sevices">Sevices</a></li>
+            <li><a href="#featrue">Featrue</a></li>
+            <li><a href="#Resources">Resources</a></li>
+            <li><a href="#contacts">Contact</a></li>
+          </ul>
+          <!-- button -->
+          <div class="action">
+            <a href="#!#!" class="action-link">Sign Up</a>
+            <a href="#!" class="btn">Sign In</a>
+          </div>
+        </nav>
+      </div>
+    </header>
     <main>
-      <!-- header -->
-      <header class="fix-header">
-        <div class="width">
-          <nav class="navbar">
-            <!-- logo -->
-            <a href=""><img src="./assets/img/Logosvg.svg" alt="Benisk" /></a>
-            <!-- link -->
-            <ul class="navbar-list">
-              <li><a href="#">Home</a></li>
-              <li><a href="#sevices">Sevices</a></li>
-              <li><a href="#featrue">Featrue</a></li>
-              <li><a href="#Resources">Resources</a></li>
-              <li><a href="#contacts">Contact</a></li>
-            </ul>
-            <!-- button -->
-            <div class="action">
-              <a href="#!#!" class="action-link">Sign Up</a>
-              <a href="#!" class="btn">Sign In</a>
-            </div>
-          </nav>
-        </div>
-      </header>
       <header class="header">
         <div class="width">
           <div class="hero">
@@ -367,86 +373,84 @@
           </div>
         </div>
       </div>
-      <footer class="footer" id="contacts">
-        <div class="width">
-          <div class="row row-gap">
-            <div class="column">
-              <h3 class="heading">Product</h3>
-              <ul class="footer-list">
-                <li>
-                  <a href="#!">Listing</a>
-                </li>
-                <li>
-                  <a href="#!">Property</a>
-                </li>
-                <li>
-                  <a href="#!">Agens</a>
-                </li>
-                <li>
-                  <a href="#!">Blog</a>
-                </li>
-              </ul>
-            </div>
-            <div class="column">
-              <h3 class="heading">Resources</h3>
-              <ul class="footer-list">
-                <li>
-                  <a href="">Our Homes</a>
-                </li>
-                <li>
-                  <a href="">Member Stories</a>
-                </li>
-                <li>
-                  <a href="">Videos</a>
-                </li>
-                <li>
-                  <a href="">Free Trial</a>
-                </li>
-              </ul>
-            </div>
-            <div class="column">
-              <h3 class="heading">Company</h3>
-              <ul class="footer-list">
-                <li>
-                  <a href="">PatnerShip</a>
-                </li>
-                <li>
-                  <a href="">Terms of use</a>
-                </li>
-                <li>
-                  <a href="">Sitemap</a>
-                </li>
-                <li>
-                  <a href="">Privacy</a>
-                </li>
-              </ul>
-            </div>
-            <div class="column">
-              <h3 class="heading">Get in Touch</h3>
-              <p class="footer-desc">
-                You’ll find your next home, in any style you prefer.
-              </p>
-              <div class="list-social">
-                <a href="#!" class="icon-link">
-                  <img src="./assets/img/face.svg" alt="" />
-                </a>
-                <a href="#!" class="icon-link">
-                  <img src="./assets/img/tw.svg" alt="" />
-                </a>
-                <a href="#!" class="icon-link">
-                  <img src="./assets/img/inta.svg" alt="" />
-                </a>
-              </div>
-            </div>
+    </main>
+    <footer class="footer" id="contacts">
+      <div class="width">
+        <div class="row row-gap">
+          <div class="column">
+            <h3 class="heading">Product</h3>
+            <ul class="footer-list">
+              <li>
+                <a href="#!">Listing</a>
+              </li>
+              <li>
+                <a href="#!">Property</a>
+              </li>
+              <li>
+                <a href="#!">Agens</a>
+              </li>
+              <li>
+                <a href="#!">Blog</a>
+              </li>
+            </ul>
           </div>
-          <div class="row row-bottom">
-            <a href=""
-              ><img src="./assets/img/Logo.png" alt="" class="logo"
-            /></a>
-            <p class="copy-right">Copyright 2020.com, All rights reserved.</p>
+          <div class="column">
+            <h3 class="heading">Resources</h3>
+            <ul class="footer-list">
+              <li>
+                <a href="">Our Homes</a>
+              </li>
+              <li>
+                <a href="">Member Stories</a>
+              </li>
+              <li>
+                <a href="">Videos</a>
+              </li>
+              <li>
+                <a href="">Free Trial</a>
+              </li>
+            </ul>
+          </div>
+          <div class="column">
+            <h3 class="heading">Company</h3>
+            <ul class="footer-list">
+              <li>
+                <a href="">PatnerShip</a>
+              </li>
+              <li>
+                <a href="">Terms of use</a>
+              </li>
+              <li>
+                <a href="">Sitemap</a>
+              </li>
+              <li>
+                <a href="">Privacy</a>
+              </li>
+            </ul>
+          </div>
+          <div class="column">
+            <h3 class="heading">Get in Touch</h3>
+            <p class="footer-desc">
+              You’ll find your next home, in any style you prefer.
+            </p>
+            <div class="list-social">
+              <a href="#!" class="icon-link">
+                <img src="./assets/img/face.svg" alt="" />
+              </a>
+              <a href="#!" class="icon-link">
+                <img src="./assets/img/tw.svg" alt="" />
+              </a>
+              <a href="#!" class="icon-link">
+                <img src="./assets/img/inta.svg" alt="" />
+              </a>
+            </div>
           </div>
         </div>
-      </footer>
-    </main>
+        <div class="row row-bottom">
+          <a href=""><img src="./assets/img/Logo.png" alt="" class="logo" /></a>
+          <p class="copy-right">Copyright 2020.com, All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
